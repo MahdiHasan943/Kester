@@ -1,0 +1,32 @@
+.header-main{
+    background-image: url(./images/heroBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    isolation: isolate;
+    width: 100%;
+ 
+}
+.sub-header{ 
+    
+        width: 100%;
+       
+       
+        position: relative;
+}
+.sub-header::after{
+
+    content:'';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    background: rgb(134, 0, 0);;
+
+}
+nav{
+   
+    z-index: 100000000 ;
+    opacity: 1000000000000000000;
+    -webkit-tap-highlight-color:transparent
+}

@@ -3,18 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Kester</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <head>
-        <div class="container">
-            <nav></nav>
+    <div class="header-main">
+        <div class="sub-header py-20 ">
+            <nav class="px-4 mx-auto lg:w-[60%] overlay mx-auto py-6  bg-[black]">
+              <div class="flex sm:px-10 justify-between items-center">
+                <img class=" h-[60px]" src="https://themewant.com/products/html/kester/assets/images/logo.png" alt="">
+                <div class="hidden  sm:flex gap-12 sm:w-[50%]">
+                   <a class="item hover:text-[red] transiton-200 delay-200 text-white" href="">Home</a>
+                   <a class="item hover:text-[red] transiton-200 delay-200 text-white" href="">Blog</a>
+                </div>
+              </div>
+            </nav>
 
-            <div class="hero"></div>
+            <div class="px-4 hero mx-auto lg:w-[60%] mt-[100px]">
+                <p class="upptercase inline px-4 text-[14px] leading-[18px] bg-[#680e10] text-white py-2 ">WELCOME TO OUR FOOTBALL CLUB</p>
+
+                <h1 class="uppercase text-white mt-6 mb-14 text-[40px] leading-[45px] sm:text-[60px] leading-[80px] font-bold">MANCHESTER & THE 
+                    <br>
+                    Ucl Champion
+                </h1>
+                <button class="text-white transiton-200 delay-100 hover:bg-[#111] hover:border-none  font-bold border border-white  px-6 py-3">OUR TEAM</button>
+            </div>
         </div>
-    </head>
-
+    </div>
+         <footer class="bg-[#1d1d1d]  px-10 sm:px-4 py-4 ">
+           <div class="lg:w-[60%] mx-auto text-[#8b8b8b] mx-auto text-center sm:flex justify-between">
+            <p>COPYRIGHT & DESIGN BY KESTER - 2023</p>
+          
+            <div class="sm:flex gap-10 justify-center">
+              <a href="">   TERMS & CONDITONS</a>
+              <a href="">  FAQ</a>
+              <a href="">CAREER</a>
+            </div>
+           </div>
+         </footer>
     <script src="soccer.js">
 
     </script>
